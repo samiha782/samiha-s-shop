@@ -20,7 +20,7 @@ body {
 }
 .nav-container {
   /* border: 2px solid peru; */
-  min-height: 10px;
+  min-height: 40px;
   display: flex;
   align-items: center;
   width: 50%;
@@ -47,9 +47,12 @@ body {
   font-size: 20px;
   color: #fff;
 }
-.items-container .login-btn a {
+.login-btn {
   padding: 10px 20px;
   background-color: #e893cf;
   border-radius: 5px;
+}
+.items-container .login-btn a {
   color: black;
 }
+/* banner section */
