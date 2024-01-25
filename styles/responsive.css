@@ -10,4 +10,17 @@
     border-radius: 5px;
     margin-bottom: 5px;
   }
+  .banner-section {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .text-container {
+    width: 100%;
+    order: 2;
+  }
+  .banner-img-container {
+    width: 100%;
+    order: 1;
+  }
 }
