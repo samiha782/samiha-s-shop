@@ -14,7 +14,7 @@ body {
   background-color: #9376e0;
 }
 .header-section {
-  max-width: 1250px;
+  max-width: 1100px;
   /* background-color: rebeccapurple; */
   margin: 0 auto;
   display: flex;
@@ -58,7 +58,7 @@ body {
 }
 /* banner section */
 .banner-section {
-  max-width: 1250px;
+  max-width: 1100px;
   margin: 0 auto;
   /* border: 2px solid palegreen; */
   min-height: 400px;
@@ -91,8 +91,8 @@ body {
   border-radius: 5px;
 }
 .text-container h1,
-p,
-span {
+/* p,
+span { */ {
   font-size: 45px;
 }
 .banner-heading {
@@ -128,4 +128,88 @@ span {
   bottom: 70%;
   left: 65%;
   font-size: 28px;
+}
+/* products styles */
+.product-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.grid-container {
+  min-width: 400px;
+  /* border: 2px solid peru; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 10px 0px 30px 0px;
+}
+.single-product {
+  /* border: 2px solid seagreen; */
+  /* width: 30%; */
+  padding: 20px;
+  background-color: #e6e9eb;
+  border-radius: 5px;
+}
+.single-product img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.heading-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  background-color: #e893cf;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* gallery style */
+.gallery-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  /* border: 2px solid black; */
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.single-gallery img {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-gallery {
+  flex-basis: 300px;
+  /* border: 2px solid peru; */
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 10px;
+}
+/* footer */
+footer {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 2px solid #9376e0;
+  border-radius: 5px;
+  background-color: #9376e0;
+  text-align: center;
+  height: 90px;
+}
+footer p {
+  width: 100%;
+  color: #e6e9eb;
+  font-size: 100%;
+  padding: 32px;
 }
